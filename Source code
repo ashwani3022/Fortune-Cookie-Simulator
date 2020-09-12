@@ -1,0 +1,25 @@
+import java.util.Random;
+
+public class FortuneCookie {
+
+    static String[] fortunes = {"EMPIRES AREN'T BUILT IN A DAY.",
+            "AIM FOR THE EXCELLENCE.",
+            "YOU'VE GOT 24 HOURS TO MAKE THIS DAY THE BEST DAY OF YOUR LIFE. START HUSTLING.",
+            "DO IT FOR THE PEOPLE WHO WANT TO SEE YOU FAIL.",
+            "BE SO BUSY THAT YOU HAVE NO TIME TO BE SAD.",
+            "WIN SILENCE. LET THEM THINK YOU'RE LOSING.",
+            "THE BEST PROJECT YOU WILL EVER WORK ON IS YOU.",
+            "BE EDUCATED, WORK SMART, DRESS WELL, GET MONEY.",
+            "NOBODY SEES YOUR PAIN. STOP CRYING. STAND ALONE.",
+            "EVERYONE LEAVES, LEARN HOW TO SURVIVE ALONE.",
+            "STOP TELLING PEOPLE MORE THAN THEY NEED TO KNOW.",
+            "EVERYTHING THAT IS WAS FIRST A DREAM.",
+            "SOMEWHERE BETWEEN ALL THOSE DISTRACTING DETAILS IS THE BEST VERSION OF YOU.",
+            "IF YOU CAN'T CHANGE IT IN YOUR HEAD, YOU CAN'T CHANGE IT IN YOUR LIFE.",
+            "IF YOU HANG OUT WITH 5 IDIOTS, YOU WILL BE THE 6TH."};
+
+    public static void main( String[] args ) {
+        Random rand = new Random();
+        int r = rand.nextInt(fortunes.length);
+        System.out.println(fortunes[r]);
+    }
